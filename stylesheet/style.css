@@ -5,10 +5,7 @@ body{
     height: 100vh; 
 }
 main{
-    /* background-image:url('/img/wallpaperflare.com_wallpaper.jpg');
-    background-repeat:no-repeat;
-    background-size: cover;
-    height: 100vh; */
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -42,9 +39,6 @@ h1, h2, h3{
 #projects{
     padding-top: 135%;
 }
-/* heading, h2{
-    padding-top: 5%;
-} */
 
 h2{
     letter-spacing: 8px;
@@ -79,12 +73,16 @@ ul,li{
     display: flex;
 }
 
-footer{
+#form{
+    padding-bottom: 8%;
+}
+ main .container h1{
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.contact-form{
-    /* width: 28rem; */
-}
-#form{
-    padding-bottom: 10%;
+#about-me-card{
+    padding: 6%;
 }

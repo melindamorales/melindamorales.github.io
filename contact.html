@@ -28,17 +28,19 @@
 
 
 
+    <!-- lil icon for the browser -->
+    <link rel="icon" href="./img/starfish-i-made copy.png">
 
 
 
-    <title>Hello, world!</title>
+    <title>Contact Meee</title>
 
 
 </head>
 
 <body>
     <div class="min-vh-100 d-flex flex-column justify-content-between">
-        <nav class="navbar navbar-light navbar-expand-lg bg-info ">
+        <nav class="navbar navbar-light navbar-expand-lg bg-info fixed-top">
             <div class="container-fluid mx-3 my-2">
                 <img class="navbar-brand" src="./img/starfish-i-made copy.png">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
@@ -68,33 +70,35 @@
         </nav>
         <main>
 
-            <div class="container mt-5">
-                <h1>Contact Me!</h1>
-                <form class="row g-3">
-                    <div class="col-md-6">
-                        <label for="firstName" class="form-label">First Name</label>
-                        <input type="text" class="form-control" id="firstName" required>
-                    </div>
-                    <div class="col-md-6">
-                        <label for="lastName" class="form-label">Last Name</label>
-                        <input type="text" class="form-control" id="LastName" required>
-                    </div>
-                    <div class="col-md-8">
-                        <label for="emailinfo" class="form-label">E-mail</label>
-                        <input type="email" class="form-control" id="emailinfo" required>
-                    </div>
-                    <div class="col-md-4">
-                        <label for="phonenumber" class="form-label">Phone Number</label>
-                        <input type="text" class="form-control" id="phonenumber" placeholder="+ (555) 555-555"> 
-                    </div>
-                    <div class="col-md-12">
-                        <label for="comments" class="form-label">comments,questionssss?</label>
-                        <textarea class="form-control" id="comments" rows="3" required></textarea>
-                    </div>
-                    <div class="col-md-12">
-                        <button type="submit" class="btn btn-info">submit</button>
-                    </div>
-                </form>
+            <div id="contact-box">
+                <div class="container mt-5">
+                    <h1>Contact Me!</h1>
+                    <form class="row g-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="LastName" required>
+                        </div>
+                        <div class="col-md-8">
+                            <label for="emailinfo" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="emailinfo" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="phonenumber" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="phonenumber" placeholder="+ (555) 555-555">
+                        </div>
+                        <div class="col-md-12">
+                            <label for="comments" class="form-label">Comments, Questionssss?</label>
+                            <textarea class="form-control" id="comments" rows="3" required></textarea>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-info">submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </main>
 
