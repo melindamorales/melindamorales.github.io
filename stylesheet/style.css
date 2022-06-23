@@ -1,0 +1,90 @@
+body{
+    background-image:url('/img/wallpaperflare.com_wallpaper.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh; 
+}
+main{
+    /* background-image:url('/img/wallpaperflare.com_wallpaper.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+nav{
+    
+/* font-family: 'Patrick Hand', cursive; */
+font-family: 'Fredoka One', cursive;
+
+}
+
+.navbar-brand{
+    height: 80px;
+    width: 80px;
+}
+
+h1{
+    letter-spacing: 6px;
+}
+
+h1, h2, h3{
+    font-family: 'Patrick Hand', cursive;
+}
+#projects{
+    padding-top: 135%;
+}
+/* heading, h2{
+    padding-top: 5%;
+} */
+
+h2{
+    letter-spacing: 8px;
+    font-family: 'Patrick Hand', cursive;
+
+}
+
+p{
+    font-family: 'Fredoka One', cursive; 
+}
+.list-title{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 23px;
+}
+ul,li{
+    font-family: 'Fredoka One', cursive; 
+}
+
+.starfish{
+   height: 15vh;
+   width: 15vh;
+}
+
+#hero>div{
+    backdrop-filter: saturate(1.5);
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+}
+#hero .row{
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+footer{
+}
+
+.contact-form{
+    /* width: 28rem; */
+}
+#form{
+    padding-bottom: 10%;
+}
