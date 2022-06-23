@@ -86,3 +86,18 @@ ul,li{
 #about-me-card{
     padding: 6%;
 }
+
+#contact-container{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #contact-container{padding-bottom:10%;}
+}
+
+/* small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    main .container h1{padding-top:20%;}
+}
+  
